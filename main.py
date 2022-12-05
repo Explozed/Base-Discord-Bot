@@ -5,7 +5,6 @@ from discord.ext import commands
 with open('config.json') as e:
     infos = json.load  (e)
     TOKEN = infos['token']
-    prefixo = infos['prefix']
     owner_id = infos['owner_id']
 
 
